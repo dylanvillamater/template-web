@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://web/./src/screens/login/style.scss"],"names":[],"mappings":"AAAA;EACI;AACJ,C","file":"styles.css","sourcesContent":["#login-screen{\n    height: 100vh;\n}"],"sourceRoot":""}
