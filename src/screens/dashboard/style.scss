@@ -1,0 +1,27 @@
+#dashboard-screen{
+    height: 100vh;
+    .sideMenu{
+        width: 300px;
+        height: 100%;
+        background-color: gray; 
+        a {
+            color: #FFF;
+        } 
+    }   
+    .main{
+        height: 100%;
+        width: 100%;
+        .mainTop{
+            height: 50px;
+            
+        }
+        .thumbnail-circle{
+            height: 24px;
+            width: 24px;
+            border-radius: 12px;
+            background-color:gray;
+        }
+    }
+
+   
+}
