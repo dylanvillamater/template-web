@@ -7,9 +7,9 @@ import ReactDOMServer from "react-dom/server";
 
 import { StaticRouter } from "react-router";
 import { Provider } from "react-redux";
-import store from "../redux/storeServer.js";
+import store from "./redux/store.js";
 
-import App from "../App.js";
+import App from "./App.js";
 
 const PORT = process.env.PORT || 3008;
 const app = express();

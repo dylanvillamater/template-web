@@ -1,17 +1,18 @@
+
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const path = require('path');
 const nodeExternals = require('webpack-node-externals');
 
 module.exports = {
-  entry: './src/server/index.js',
+  entry: './src/server.js',
 
   target: 'node',
 
   externals: [nodeExternals()],
 
   output: {
-    path: path.join(__dirname,'server'),
+    path: path.resolve('server'),
     filename: 'index.js',
     assetModuleFilename: 'images/[name][ext][query]'
 

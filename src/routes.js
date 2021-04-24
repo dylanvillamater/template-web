@@ -3,7 +3,7 @@ import Login from './screens/login';
 import Signup from './screens/signup';
 import ForgotPassword from './screens/forgot-password';
 import Dashboard from './screens/dashboard';
-
+import NotFound from './screens/404';
 const routes = [
 
     {
@@ -23,6 +23,10 @@ const routes = [
     {
         path: '/dashboard',
         component: Dashboard
+    }
+    ,{
+        path: '/*',
+        component: NotFound
     }
 
   
